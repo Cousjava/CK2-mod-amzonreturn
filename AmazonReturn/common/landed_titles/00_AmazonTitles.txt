@@ -1,10 +1,25 @@
-k_Amazonia = { 
+
+
+e_Amazonia = = { 
 	color = { 148 0 211 }
 	color2 = { 220 220 0 }
 	
 	religion = hellenic_amazon
 	culture = sarmatian
+	
+	allow = { is_female = yes}
+	
+	k_Amazonia = { 
+		color = { 148 0 211 }
+		color2 = { 220 220 0 }
+		
+		religion = hellenic_amazon
+		culture = sarmatian
+		
+		allow = { is_female = yes}
 	}
+	
+}
 
 d_matriarch = {
 	color = { 230 51 51 }
