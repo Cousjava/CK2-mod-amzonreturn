@@ -33,6 +33,7 @@ d_matriarch = {
 
 	allow = {
 		always = no
+		is_female = yes
 	}
 
 	landless = yes

@@ -94,6 +94,7 @@ amazon_county_conquest = {
 							NOT = { culture = ROOT }
 							NOT = { religion = ROOT }
 						}
+						NOT = { is_female = yes }
 					}
 				}
 			}
