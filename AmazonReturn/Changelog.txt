@@ -1,0 +1,13 @@
+Changelog
+
+Current Verion: 1.1
+
+Known Issues:
+-Hovering over a holy site in the religions tab causing the game to crash. This is caused by holy sites not being defined by default and are not moddable at the moment.
+
+Changes from 1.0 to 1.1
+FIX: Can no longer do county conquests on female rulers
+FIX: Matriarchy head of faith is now always female
+ADD: Cultural building for amazons, provides archers and horse archers
+ADD: Titular empire of Helenic Amazonia, requires the kingdom of Helenic Amazonia, being female + standard empire requirements
+CHANGE: Amazons now use Southern graphics
