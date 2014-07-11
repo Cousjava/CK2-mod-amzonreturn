@@ -208,7 +208,7 @@
 	culture="sarmatian"
 
 	mother = 9999981
-	wealth = 1000
+	
 	
 	844.8.27={
 		birth="844.8.27"
@@ -223,6 +223,7 @@
 				match_character = ROOT
 				match_mult = 10.0
 				attrition = 0.5
+				wealth = 1000
 			}
 			create_character = {
 				random_traits = yes
@@ -231,6 +232,7 @@
 				culture = ROOT
 				female = yes
 				age = 23
+				wealth = 1000
 				attributes = {
 					martial = 9
 				}
@@ -247,6 +249,7 @@
 					match_character = ROOT
 					match_mult = 12.0
 					attrition = 0.5
+					wealth = 1000
 				}
 			}
 			create_character = {
@@ -256,6 +259,7 @@
 				culture = ROOT
 				female = yes
 				age = 27
+				wealth = 1000
 				attributes = {
 					martial = 9
 				}
