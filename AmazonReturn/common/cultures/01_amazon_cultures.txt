@@ -1,8 +1,8 @@
 	amazon = {
-	graphical_culture = westerngfx
+	graphical_culture = southerngfx
 	
 		sarmatian = {	
-			graphical_culture = westerngfx
+			graphical_culture = southerngfx
 			color = { 0.3 0.55 0.8 }
 			
 			male_names = {
@@ -35,7 +35,17 @@
 			mother_name_chance = 30
 			
 			
-			modifier = default_culture_modifier
+			modifier = {
+				fertility = 0.1
+				archers_defensive = 0.2
+				horse_archers_defensive = 0.2
+				archers_offensive = 0.1
+				horse_archers_offensive = 0.1
+				heavy_infantry_offensive = -0.1
+				knights_offensive = -0.1
+				knights_defensive = -0.1
+				
+			}
 			founder_named_dynasties = yes
 	}
 }

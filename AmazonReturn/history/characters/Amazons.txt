@@ -208,7 +208,7 @@
 	culture="sarmatian"
 
 	mother = 9999981
-
+	wealth = 1000
 	
 	844.8.27={
 		birth="844.8.27"
@@ -237,6 +237,7 @@
 				trait = skilled_tactician
 				trait = lustful
 				trait = brave
+				
 			}
 			new_character = {
 				spawn_unit = {
