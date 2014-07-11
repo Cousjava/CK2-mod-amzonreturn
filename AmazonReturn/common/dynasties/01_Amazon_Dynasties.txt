@@ -1,0 +1,33 @@
+9999666 = {
+	name = "Otrerid"
+	culture = sarmatian
+	}
+
+9999667 = {
+	name = "Lycid"
+	culture = sarmatian
+	}
+
+
+9999668 = {
+	name = "Sarmatid"
+	culture = sarmatian
+	}
+
+
+9999669 = {
+	name = "Scythid"
+	culture = sarmatian
+	}
+
+
+9999670 = {
+	name = "Geticid"
+	culture = sarmatian
+	}
+
+
+9999671 = {
+	name = "Antianeirid"
+	culture = sarmatian
+	}

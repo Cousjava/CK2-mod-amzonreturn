@@ -1,0 +1,217 @@
+# I'm an Amazon! I should have enatic succession! No dirty enatic-cognatic, THANK YOU!
+
+character_event = {
+	id = amareturn.800
+	desc = amareturn.800
+	
+	trigger = {
+		religion_group = amazon
+		primary_title = {
+			NOT = {
+				has_law = enatic_succession
+			}
+		}
+	}	
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+	immediate = {		
+		primary_title = {
+			add_law = enatic_succession
+		}
+	}
+	
+	option = {
+		name = OK	
+		any_vassal = {
+			limit = {
+				religion_group = amazon
+				has_opinion_modifier = { who = ROOT modifier = succ_law_change }
+				}
+			character_event = { id = amareturn.899 }
+		}
+			# opinion = { modifier = amazon_likes_change_to_enatic who = ROOT years = 10 }
+			# }
+		}
+}
+
+character_event = {
+	id = amareturn.899
+	desc = amareturn.899
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = amazon
+		OR = {
+			has_opinion_modifier = { who = FROM modifier = succ_law_change }
+			has_opinion_modifier = { who = FROM modifier = bad_succ_law_change }
+			has_opinion_modifier = { who = FROM modifier = good_succ_law_change }
+		}
+	}
+	
+	option = {
+		name = OK
+		remove_opinion = { who = FROM modifier = good_succ_law_change }
+		remove_opinion = { who = FROM modifier = bad_succ_law_change }
+		remove_opinion = { who = FROM modifier = succ_law_change }
+	}
+}
+
+# Give Barony to female character
+
+character_event = {
+	id = amareturn.801
+	desc = amareturn.801
+	
+	trigger = {
+		ai = yes
+		OR = {
+			AND = {
+				is_feudal = no
+				religion_group = amazon
+				num_of_baron_titles = 1
+				lower_tier_than = COUNT
+			}
+#			has_landed_title = d_matriarch
+		}
+		is_female = no
+		any_courtier = { is_female = yes }
+		}
+		
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = OK
+		
+		# Abdicate to spouse, if married
+		if = {
+			limit = {
+				is_married = yes
+				any_spouse = {
+					is_female = yes
+				}
+			}
+			random_spouse = {
+				limit = {
+					is_female = yes
+				}
+				abdicate_to = THIS
+			}
+			death = { death_reason = death_suicide }
+		}
+		
+		# Otherwise, to female courtier
+		if = {
+			limit = {
+				is_married = no
+			}
+			random_courtier = {
+				limit = {
+					is_female = yes
+				}
+				abdicate_to = THIS
+			}
+			death = { death_reason = death_suicide }
+#				character_event = { id = amareturn.803 days = 1 }
+			}
+		}
+	}
+
+		
+character_event = {
+	id = amareturn.802
+	desc = amareturn.802
+	
+	trigger = {
+		is_feudal = no
+		religion_group = amazon
+		num_of_baron_titles = 1
+		lower_tier_than = COUNT
+		is_female = no
+		NOT = { any_courtier = { is_female = yes } }
+	}
+		
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = OK
+		create_character = {
+			female = yes
+			random_traits = yes
+			religion = hellenic_amazon
+		}
+	}
+}
+		
+# character_event = {
+	# id = amareturn.803
+	# desc = amareturn.803
+	
+	# is_triggered_only = yes
+	
+	# option = {
+		# name = OK
+		# FROM = {
+			# character_event = { id = amareturn.804 days = 1 }
+		# }
+	# }
+# }
+		
+character_event = {
+	id = amareturn.804
+	desc = amareturn.804
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		FROM = {
+			abdicate_to = ROOT
+		}
+		death = { death_reason = death_suicide }
+	}
+}
+
+# Abdicate to spouse
+
+character_event = {
+	id = amareturn.900
+	desc = amareturn.900
+	
+	trigger = {
+		ai = yes
+		liege = {
+			ai = yes
+			religion_group = amazon
+		}
+		primary_title = {
+			is_recent_grant = yes
+		}
+		is_female = no
+		is_married = yes
+		spouse = {
+			ai = yes
+			religion_group = amazon
+		}
+		religion_group = amazon
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OK
+		abdicate = yes
+		abdicate_to = spouse
+		move_character = spouse
+#		death = { death_reason = death_suicide }
+	}
+}
