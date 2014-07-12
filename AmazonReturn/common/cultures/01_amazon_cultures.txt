@@ -19,7 +19,8 @@
 			female_names = {
 				Penthesilea Clonie Polemusa Derinoe Evandre Antandre Bremusa Harmothoe Alcibie Derimacheia Antibrote Thermodosa Hippolyta Aella Philippis Prothoe Eriboea Celaeno Eurybia Phoebe Deianeira Asteria Marpe Tecmessa Alcippe
 				Otrera Antiope Ocyale Dioxippe Iphinome Xanthe Hippothoe Laemache Glauce Agave Theseis Clymene Polydora Euryale Harpe Lyce Menippe Thoe Tralla Isocrateia Thiba Palla Koia Koinia Aegea Ainia Ainippe Alce Amasris Anaea Andromache
-				Antianeira Areto Iphito Clete Cyme Cynna Ephesos Amazo Eurypyle Gryne Helene Hippo Lampedo Latoreia Lysippe Marpesia Melanippe Molpadia Myrleia Myrto Mytilene Orithyia Pantariste Pitane Priene Sanape Sinope Sisyrbe Smyrna Themiscyra
+				Antianeira Areto Iphito Clete Cyme Cynna Ephesos Amazo Eurypyle Gryne Helene_Helena Hippo Lampedo Latoreia Lysippe Marpesia Melanippe Molpadia Myrleia Myrto Mytilene Orithyia Pantariste Pitane Priene Sanape Sinope Sisyrbe Smyrna Themiscyra
+				Alexis Agathe_Agatha Hagnes_Agnes Anastasia Aphrodisia Aristomache Berenice_Berenike Corinna_Korinna Euanthe Elpis Eudocia_Eudokia Eugeneia_Eugenia Eulalia Eunice_Eunike Euphrasia Euthalia Galene Kallisto_Callisto Melitta_Melissa Menodora Metrodora Myrrine Nikephoros Nymphdora Olympias Pelagia Pherenike Phoibe_Phobe Photine Rhode Roxane_Roxana Sappho Sophia Timo Timothea Tryphaina Xena Zenais Zenobia Zoe
 			}
 			
 			from_dynasty_prefix = "of "

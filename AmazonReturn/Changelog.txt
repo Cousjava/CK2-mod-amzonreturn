@@ -8,6 +8,7 @@ Known Issues:
 Changes from 1.0 to 1.1
 FIX: Can no longer do county conquests on female rulers
 FIX: Matriarchy head of faith is now always female
+ADD: More female name and dynasty names
 ADD: Cultural building for amazons, provides archers and horse archers
 ADD: Titular empire of Helenic Amazonia, requires the kingdom of Helenic Amazonia, being female + standard empire requirements
 ADD: Holy order - Daughters of Athena
