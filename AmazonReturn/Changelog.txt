@@ -10,4 +10,5 @@ FIX: Can no longer do county conquests on female rulers
 FIX: Matriarchy head of faith is now always female
 ADD: Cultural building for amazons, provides archers and horse archers
 ADD: Titular empire of Helenic Amazonia, requires the kingdom of Helenic Amazonia, being female + standard empire requirements
+ADD: Holy order - Daughters of Athena
 CHANGE: Amazons now use Southern graphics
