@@ -290,3 +290,20 @@
 		death = "900.1.1"
 	}
 }
+
+9999997 = {
+	name = "Xena"
+	female = yes
+	
+	religion="hellenic_amazon"
+	culture="sarmatian"
+
+	833.4.26={
+		birth="833.4.26"
+	}
+	
+	878.8.4 = {
+		death = "878.8.4"
+	}
+
+}

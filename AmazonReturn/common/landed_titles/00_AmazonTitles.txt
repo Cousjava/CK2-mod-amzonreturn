@@ -43,3 +43,33 @@ d_matriarch = {
 	religion = hellenic_amazon
 	
 	}
+	
+d_daughters_of_athena = {
+	color = { 200 10 10 }
+	color2 = { 220 50 220 }
+	
+	
+	
+	title = "GRANDMASTER"
+	title_female = "GRANDMISTRESS"
+	foa = "GRANDMASTER_FOA"
+
+	allow = {
+		is_female = yes
+	}
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	culture = samaritan
+	primary = yes
+	
+	religion = hellenic_amazon
+	
+	mercenary_type = daughters_of_athena_composition
+	
+	monthly_income = 2
+
+}
