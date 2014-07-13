@@ -100,8 +100,8 @@ amazon_county_conquest = {
 							is_liege_or_above = ROOT
 							NOT = { culture = ROOT }
 							NOT = { religion = ROOT }
+							is_female = no
 						}
-						NOT = { is_female = yes }
 					}
 				}
 			}
