@@ -3,7 +3,14 @@ Changelog
 Current Verion: 1.1
 
 Known Issues:
--Hovering over a holy site in the religions tab causing the game to crash. This is caused by holy sites not being defined by default and are not moddable at the moment.
+-All successors to the matriarchy are males named Adam
+
+Changes from 1.1.1 to 1.1.2
+FIX: Holy sites issue now resolved. The Amazonian religion is a Hellenistic heresey
+FIX: Some errors in localisations
+
+Changes from 1.1 to 1.1.1
+FIX: Stopped all mercenaries having 0 units
 
 Changes from 1.0 to 1.1
 FIX: Can no longer do county conquests on female rulers
