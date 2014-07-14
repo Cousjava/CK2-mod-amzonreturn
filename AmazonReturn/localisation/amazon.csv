@@ -20,7 +20,7 @@ amazon;Amazonian;;Amazonisch;;;;;;;;;;;x
 k_Amazonia;Hellenic Amazonia;;Amazonien;;;;;;;;;;;x
 k_Amazonia_adj;Hellenic;;Amazonisch;;;;;;;;;;;x
 e_Amazonia;Hellenic Amazonia;;Amazonien;;;;;;;;;;;x
-e_Amazonia_adj;Hellenic;;Amazonisch;;;;;;;;;;;x
+e_Amazonia_adj;Amazonian;;Amazonisch;;;;;;;;;;;x
 d_matriarch;Matriarchy;;Matriarchat;;;;;;;;;;;x
 d_matriarch_adj;Matriarchal;;Matriarchalisch;;;;;;;;;;;x
 AMAZON_MATRIARCH;Matriarch of All Amazons;;Matriarchin Aller Amazonen;;;;;;;;;;;x
@@ -31,7 +31,7 @@ amazon;Amazonian;;Amazonisch;;;;;;;;;;;x
 valkyrie_religion;Valkyrie;;Walkürisch;;;;;;;;;;;x
 valkyrie_freyja_religion;Kult der Freyja;;Kult der Freyja;;;;;;;;;;;x
 celtic_religion;Celtic;;Keltisch;;;;;;;;;;;x
-hellenic_amazon;Hellenic;;Hellenisch;;;;;;;;;;;x
+hellenic_amazon;Amazonian;;Amazonisch;;;;;;;;;;;x
 job_spiritual_hellenic_amazon;Oracle;;Orakel;;;;;;;;;;;x
 job_marshal_hellenic_amazon;Marshal;;Heerführerin;;;;;;;;;;;x
 job_spiritual_celtic_amazon;Priestess;;Priesterin;;;;;;;;;;;x
@@ -81,6 +81,9 @@ amazon_county_conquest_desc;Amazons may freely invade neighboring counties suffe
 amareturn.15;I have chosen a consort. This will ensure the survival of my line!;;Ich habe einen zusätzlichen Gemahlen auserkoren. So sollte das Überleben meiner Abstammungslinie gesichert sein!;;;;;;;;;;;x
 amareturn.22;Since I have no male mates appointed, I no longer enjoy their benefits.;;Das ich keine männlichen Gemahle habe, verfüge ich nicht länger über die entsprechenden Vorteile.;;;;;;;;;;;x
 ca_culture_amazon_1;Amazon Archery Range;Archerie d'arc;Langbogen-Schießplatz;;Arquería de arco;;;;;;;;;x
+ca_culture_amazon_2;Amazon Archery Range;Archerie d'arc;Langbogen-Schießplatz;;Arquería de arco;;;;;;;;;x
+ca_culture_amazon_3;Amazon Archery Range;Archerie d'arc;Langbogen-Schießplatz;;Arquería de arco;;;;;;;;;x
+ca_culture_amazon_4;Advanced Amazon Archery Range;Archerie d'arc;Langbogen-Schießplatz;;Arquería de arco;;;;;;;;;x
 ca_culture_amazon_1_desc;Amazons are skilled with the bow, both on foot and on horseback. Here they train their skill to greater heights.;Amazones sont qualifiés à l'arc, à pied et à cheval. Ici, ils forment leur compétence à de plus hauts sommets.;Amazonen sind geschickt mit dem Bogen, zu Fuß und zu Pferd. Hier trainieren sie ihre Fähigkeiten, zu größeren Höhen.;;Amazonas son hábiles con el arco, tanto a pie como a caballo. Aquí se entrenan sus habilidades a mayores alturas.;;;;;;;;;x
 d_daughters_of_athena;Daughters of Athena;Filles d'Athéna;Töchter von Athena;;Hijas de Athena;;;;;;;;;x
 GRANDMISTRESS;Grandmistress;Grandemaîtresse;Oberhofmeisterin;;Granmaestra;;;;;;;;;x
