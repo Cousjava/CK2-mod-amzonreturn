@@ -31,5 +31,7 @@ amazon = {
 		religious_clothing_priest = 3
 
 		aggression = 2
+		
+		parent = hellenic_pagan
 	}
 }
