@@ -1,6 +1,4 @@
-
-
-e_Amazonia = = { 
+e_amazonia = = { 
 	color = { 148 0 211 }
 	color2 = { 220 220 0 }
 	

@@ -19,8 +19,10 @@ temple_emperor_amazon;Supreme Priest;;Oberpriester;;;;;;;;;;;
 amazon;Amazonian;;Amazonisch;;;;;;;;;;;x
 k_Amazonia;Hellenic Amazonia;;Amazonien;;;;;;;;;;;x
 k_Amazonia_adj;Hellenic;;Amazonisch;;;;;;;;;;;x
-e_Amazonia;Hellenic Amazonia;;Amazonien;;;;;;;;;;;x
-e_Amazonia_adj;Amazonian;;Amazonisch;;;;;;;;;;;x
+k_amazonia;Hellenic Amazonia;;Amazonien;;;;;;;;;;;x
+k_amazonia_adj;Hellenic;;Amazonisch;;;;;;;;;;;x
+e_amazonia;Amazon Empire;;Amazonien;;;;;;;;;;;x
+e_amazonia_adj;Amazonian;;Amazonisch;;;;;;;;;;;x
 d_matriarch;Matriarchy;;Matriarchat;;;;;;;;;;;x
 d_matriarch_adj;Matriarchal;;Matriarchalisch;;;;;;;;;;;x
 AMAZON_MATRIARCH;Matriarch of All Amazons;;Matriarchin Aller Amazonen;;;;;;;;;;;x

@@ -291,12 +291,16 @@
 	}
 }
 
-9999997 = {
+9999967 = {
 	name = "Xena"
 	female = yes
 	
 	religion="hellenic_amazon"
 	culture="sarmatian"
+
+	trait = brave
+	trait = skilled_tactician
+	martial = 12
 
 	833.4.26={
 		birth="833.4.26"
