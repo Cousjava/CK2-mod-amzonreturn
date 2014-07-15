@@ -1,9 +1,13 @@
 Changelog
 
-Current Verion: 1.1
+Current Verion: 1.1.2.1
 
 Known Issues:
--All successors to the matriarchy are males named Adam
+-Unlanded enatic title behave agnaticly
+
+Changes from 1.1.2
+ADD: Flags for empire and holy order
+FIX: Removed duplicate character IDs
 
 Changes from 1.1.1 to 1.1.2
 FIX: Holy sites issue now resolved. The Amazonian religion is a Hellenistic heresey

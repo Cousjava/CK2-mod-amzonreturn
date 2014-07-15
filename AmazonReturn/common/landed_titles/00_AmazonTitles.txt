@@ -2,6 +2,8 @@ e_amazonia = = {
 	color = { 148 0 211 }
 	color2 = { 220 220 0 }
 	
+	
+	capital = 604
 	religion = hellenic_amazon
 	culture = sarmatian
 	
@@ -11,6 +13,7 @@ e_amazonia = = {
 		color = { 148 0 211 }
 		color2 = { 220 220 0 }
 		
+		capital = 604
 		religion = hellenic_amazon
 		culture = sarmatian
 		
