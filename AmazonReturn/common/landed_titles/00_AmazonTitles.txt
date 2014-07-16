@@ -33,12 +33,11 @@ d_matriarch = {
 	short_name = yes
 
 	allow = {
-		always = no
-		is_female = yes
+		always = yes	
 	}
 
 	landless = yes
-
+	is_female = yes
 	controls_religion = hellenic_amazon
 	
 	religion = hellenic_amazon

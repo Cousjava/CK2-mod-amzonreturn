@@ -1,13 +1,16 @@
-Changelog
+CHANGELOG
 
-Current Verion: 1.1.2.1
+Current Verion: 1.1.2.2
 
 Known Issues:
--Unlanded enatic title behave agnaticly
+- Unlanded enatic title behave agnaticly
+- Middle Francia renamed Lorthaginia at Old Gods starting date
+- Pagan county conquest appears as valid causus belli and war will not be declared. This should not be a valid causus belli.
 
 Changes from 1.1.2
 ADD: Flags for empire and holy order
 FIX: Removed duplicate character IDs
+FIX: Amazon religion now works as part of the pagan group
 
 Changes from 1.1.1 to 1.1.2
 FIX: Holy sites issue now resolved. The Amazonian religion is a Hellenistic heresey
