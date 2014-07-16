@@ -1,15 +1,15 @@
 CHANGELOG
 
-Current Verion: 1.1.2.2
+Current Verion: 1.1.3
 
 Known Issues:
-- Unlanded enatic title behave agnaticly
-- Middle Francia renamed Lorthaginia at Old Gods starting date
+- Middle Francia renamed Lorthargingia at Old Gods starting date
 - Pagan county conquest appears as valid causus belli and war will not be declared. This should not be a valid causus belli.
 
-Changes from 1.1.2
+Changes from 1.1.2 to 1.1.3
 CHANGE: Helene now has higher starting wealth and piety
 ADD: Flags for empire and holy order
+FIX: Abdication now works properly for male rulers.
 FIX: Removed duplicate character IDs
 FIX: Amazon religion now works as part of the pagan group
 

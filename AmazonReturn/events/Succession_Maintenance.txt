@@ -75,7 +75,7 @@ character_event = {
 				num_of_baron_titles = 1
 				lower_tier_than = COUNT
 			}
-#			has_landed_title = d_matriarch
+			has_landed_title = d_matriarch
 			has_landed_title = d_daughters_of_athena
 		}
 		is_female = no
@@ -101,7 +101,7 @@ character_event = {
 				limit = {
 					is_female = yes
 				}
-				abdicate_to = THIS
+				spouse = { abdicate_to = PREV }
 			}
 			death = { death_reason = death_suicide }
 		}
@@ -115,13 +115,13 @@ character_event = {
 				limit = {
 					is_female = yes
 				}
-				abdicate_to = THIS
+				liege = { abdicate_to = PREV }
 			}
 			death = { death_reason = death_suicide }
 #				character_event = { id = amareturn.803 days = 1 }
 			}
 		}
-	}
+}
 
 		
 character_event = {
@@ -215,4 +215,33 @@ character_event = {
 		move_character = spouse
 #		death = { death_reason = death_suicide }
 	}
+}
+
+character_event = {
+	id = amareturn.805
+	desc = amareturn.805
+	
+	trigger = {
+		ai = yes
+		OR = {
+			has_landed_title = d_matriarch
+			has_landed_title = d_daughters_of_athena
+		}
+		is_female = no
+		NOT = { any_courtier = { is_female = yes } }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+		
+	option = {
+		name = OK
+		create_character = {
+			female = yes
+			random_traits = yes
+			religion = hellenic_amazon
+		}
+	}
+	
 }

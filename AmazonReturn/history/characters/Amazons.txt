@@ -215,7 +215,7 @@
 	}
 	
 	867.1.1 = {
-		wealth = 1000
+		wealth = 500
 		piety = 120
 		effect = {
 			spawn_unit = {

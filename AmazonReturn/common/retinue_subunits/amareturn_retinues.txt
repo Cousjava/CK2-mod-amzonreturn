@@ -9,7 +9,7 @@ RETTYPE_CUL_SARMATIAN =
 	special_troops = horse_archers
 	
 	potential = {
-		religion_group = amazon
+		religion = hellenic_amazon
 	}
 	
 	modifier = {
