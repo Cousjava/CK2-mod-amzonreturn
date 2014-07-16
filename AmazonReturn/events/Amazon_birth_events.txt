@@ -218,7 +218,7 @@ character_event = {
 	
 	trigger = {
 		NOT = { trait = pregnant }
-		religion_group = amazon
+		religion = hellenic_amazon
 	}
 	
 	option = {
@@ -248,7 +248,7 @@ character_event = {
 	
 	trigger = {
 		is_female = yes
-		mother = { religion_group = amazon }
+		mother = { religion = hellenic_amazon }
 	}
 
 	option = {
@@ -286,7 +286,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion_group = amazon
+		religion = hellenic_amazon
 		any_realm_character = {
 			has_minor_title = title_amazon_consort
 		}
@@ -345,7 +345,7 @@ character_event = {
 	
 	trigger = {
 		is_female = no
-		mother = { religion_group = amazon }
+		mother = { religion = hellenic_amazon }
 	}
 	
 	option = {
@@ -485,6 +485,7 @@ character_event = {
 	desc = amareturn.21
 	
 	is_triggered_only = yes
+
 	
 	option = {
 		name = OK

@@ -12,9 +12,9 @@ title_amazon_consort = {
 	allow = {
 		FROM = {
 			is_feudal = yes
-			religion_group = amazon
+			religion = hellenic_amazon
 			}
-		religion_group = amazon
+		religion = hellenic_amazon
 		}
 		
 	gain_effect = {

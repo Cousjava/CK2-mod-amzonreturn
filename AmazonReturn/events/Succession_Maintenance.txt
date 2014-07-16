@@ -5,7 +5,7 @@ character_event = {
 	desc = amareturn.800
 	
 	trigger = {
-		religion_group = amazon
+		religion = hellenic_amazon
 		primary_title = {
 			NOT = {
 				has_law = enatic_succession
@@ -27,7 +27,7 @@ character_event = {
 		name = OK	
 		any_vassal = {
 			limit = {
-				religion_group = amazon
+				religion = hellenic_amazon
 				has_opinion_modifier = { who = ROOT modifier = succ_law_change }
 				}
 			character_event = { id = amareturn.899 }
@@ -44,7 +44,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion_group = amazon
+		religion = hellenic_amazon
 		OR = {
 			has_opinion_modifier = { who = FROM modifier = succ_law_change }
 			has_opinion_modifier = { who = FROM modifier = bad_succ_law_change }
@@ -71,11 +71,12 @@ character_event = {
 		OR = {
 			AND = {
 				is_feudal = no
-				religion_group = amazon
+				religion = hellenic_amazon
 				num_of_baron_titles = 1
 				lower_tier_than = COUNT
 			}
 #			has_landed_title = d_matriarch
+			has_landed_title = d_daughters_of_athena
 		}
 		is_female = no
 		any_courtier = { is_female = yes }
@@ -129,7 +130,7 @@ character_event = {
 	
 	trigger = {
 		is_feudal = no
-		religion_group = amazon
+		religion = hellenic_amazon
 		num_of_baron_titles = 1
 		lower_tier_than = COUNT
 		is_female = no
@@ -189,7 +190,7 @@ character_event = {
 		ai = yes
 		liege = {
 			ai = yes
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 		primary_title = {
 			is_recent_grant = yes
@@ -198,9 +199,9 @@ character_event = {
 		is_married = yes
 		spouse = {
 			ai = yes
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
-		religion_group = amazon
+		religion = hellenic_amazon
 	}
 	
 	mean_time_to_happen = {

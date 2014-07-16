@@ -8,6 +8,7 @@ Known Issues:
 - Pagan county conquest appears as valid causus belli and war will not be declared. This should not be a valid causus belli.
 
 Changes from 1.1.2
+CHANGE: Helene now has higher starting wealth and piety
 ADD: Flags for empire and holy order
 FIX: Removed duplicate character IDs
 FIX: Amazon religion now works as part of the pagan group

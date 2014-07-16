@@ -69,7 +69,7 @@ amazon_county_conquest = {
 
 	is_valid_title = {
 		ROOT = {
-			religion_group = amazon
+			religion = hellenic_amazon
 			NOT = { same_realm = FROM }
 		}
 		FROM = {
@@ -203,8 +203,10 @@ pagan_county_conquest = {
 	
 	can_use = {
 		ROOT = {
-			religion_group = pagan_group
-			NOT = { religion = hellenic_amazon }
+			AND = {	r
+				religion_group = pagan_group
+				NOT = { religion = hellenic_amazon }
+			} 
 			NOT = { same_realm = FROM }
 		}
 		FROM = {

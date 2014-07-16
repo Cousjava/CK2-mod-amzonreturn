@@ -24,7 +24,7 @@ character_event = {
 		NOT = {
 			religion_group = muslim
 		}		
-		NOT = { religion_group = amazon }
+		NOT = { religion = hellenic_amazon }
 		spouse = {
 			NOT = {
 				religion_group = muslim
@@ -307,7 +307,7 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.25
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 	}
 	
@@ -493,7 +493,7 @@ character_event = {
 		}		
 		modifier = {
 			factor = 0.25
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 	}
 	
@@ -526,6 +526,7 @@ character_event = {
 			}
 		}
 	}
+
 
 	option = {
 		name = "EVTOPTC64006"
@@ -1335,7 +1336,7 @@ character_event = {
 		days = 1		
 		modifier = {
 			factor = 0.25
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 	}
 	
@@ -1429,7 +1430,7 @@ character_event = {
 		days = 1		
 		modifier = {
 			factor = 0.25
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 	}
 	
@@ -1533,7 +1534,7 @@ character_event = {
 
 	trigger = {
 		NOT = { 
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 		spouse = {
 			in_command = no
@@ -1936,6 +1937,7 @@ character_event = {
 				}
 				add_trait = stressed
 				remove_opinion = { who = PREV modifier = teenage_infatuation }
+
 				reverse_remove_opinion = { who = PREV modifier = teenage_infatuation }
 				clr_character_flag = teenage_infatuation
 			}
@@ -2072,7 +2074,7 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			religion_group = amazon
+			religion = hellenic_amazon
 		}
 		war = no
 		in_command = no
